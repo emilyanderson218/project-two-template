@@ -1,4 +1,4 @@
-/* Enter your Styles below! */
+ Enter your Styles below! */
 
 
 body { 
@@ -49,6 +49,48 @@ a:hover { color: black; }
 	padding: 20px;
 }
 
+.logo {
+	width: 200px;
+	height: 200px;
+}
+
+
+body {font-family: Acumin Pro Condensed, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #d9a447;
+  color: white;
+  padding: 12px 20px;
+  border: 2px;
+  border-color: #d9a447;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  border-color: #d9a447;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+
 @media only screen and (min-width: 768px){
 	body {
 		background-color: white; 
@@ -72,4 +114,3 @@ a:hover { color: black; }
 font-family: 'Mansalva', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'Indie Flower', cursive;
-*/

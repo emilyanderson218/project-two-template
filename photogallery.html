@@ -2,31 +2,69 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Project One - Subpage One</title>
+	<title>PHOTO GALLERY</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
+	<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
+	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
+
 	<link rel="stylesheet" href="https://use.typekit.net/jwn5jdo.css">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
 	<header>
-		<!-- header, h1, logo etc content -->
-		<h1>Your Project Name, or whatever</h1>
+		<a href="index.html">
+			<img src="images/logo.png" class="logo">
+		</a>
 	</header>
+
 	<nav>
-		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
 		<ul>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
+			<li><a href="index.html">OUR STORY</a></li>
+			<li><a href="doughnuts.html">DOUGHNUTS</a></li>
+			<li><a href="photogallery.html">PHOTO GALLERY</a></li>
+			<li><a href="index.html">SHOP</a></li>
 		</ul>
 	</nav>
+
 	<main>
-	<!-- Main content here -->
+	<h2>PHOTO GALLERY</h2>
+	
+	<div id="gallery" style="display:none;">
+
+		<a href="http://unitegallery.net">
+		<img alt="bacon.jpg"
+		     src="images/bacon.jpg"
+		     data-image="images/big/tile1.jpg"
+		     data-description="This is a bacon donut"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Peppers"
+		     src="images/thumbs/tile2.jpg"
+		     data-image="images/big/tile2.jpg"
+		     data-description="Those are peppers"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Keys"
+		     src="images/thumbs/tile3.jpg"
+		     data-image="images/big/tile3.jpg"
+		     data-description="Those are keys"
+		     style="display:none">
+		</a>
+			 
+	</div>
+
 	</main>
 	<footer>
 		<!-- footer content here -->
@@ -37,6 +75,17 @@
   	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   	crossorigin="anonymous"></script>
   	<!-- link for your script file -->
+
   	<script src="scripts/script.js"></script>
+
+  		<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#gallery").unitegallery();
+
+		});
+		
+	</script>
 </body>
 </html>
