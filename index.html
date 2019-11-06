@@ -2,45 +2,80 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Project One - Homepage</title>
+	<title>Voodoo Doughnuts</title>
 	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="icon" href="logo.png" type="image/x-icon">
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
+	<link rel="stylesheet" href="https://use.typekit.net/jwn5jdo.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
 	<header>
-		<!-- header, h1, logo etc content -->
-		<h1>There Can Be Only One Header One</h1>
-		<h2>Header Two</h2>
-		<h3>Header Three</h3>
-		<h4>Header Four</h4>
-		<p>A paragraph of lorem ipsum text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, eligendi.</p>
+	<img src="images/logo.png">
 	</header>
 
 	<nav>
-		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
 		<ul>
-			<li><a href="subpage-one.html">example link to subpage one</a></li>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
+			<li><a href="index.html">OUR STORY</a></li>
+			<li><a href="doughnuts.html">DOUGHNUTS</a></li>
+			<li><a href="photogallery.html">PHOTO GALLERY</a></li>
+			<li><a href="index.html">SHOP</a></li>
 		</ul>
 	</nav>
+	
 	<main>
-		<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus soluta vero fugiat saepe, tempore laboriosam nemo pariatur maxime sunt rerum."</blockquote>
-	<!-- Main content here -->
+		<section>
+			<header>WHAT IS VOODOO DOUGHNUT?</header>
+			<iframe width="1152" height="648" src="https://www.youtube.com/embed/Ob1yxoGK_cQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+
+		<section>
+			<header>WHAT IS VOODOO DOUGHNUT?</header>
 		<div class="grid">
-			<div>Column 1</div>
-			<div>Column 2</div>
+			<img src="images/original.jpg">
+			<img src="images/too.jpg">
+			<img src="images/broadway.jpg">
+			<img src="images/austin.jpg">
+			<img src="images/citywalk.jpg">
+			<img src="images/denver.jpg">
+			<img src="images/eugene.jpg">
+			<img src="images/universal.jpg">
 		</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<form action="/action_page.php">
+					<label for="fname">NAME</label>
+					<input type="text" id="fname" name="firstname">
+
+					<label for="email">EMAIL</label>
+					<input type="text" id="email" name="email">
+
+					<label for="number">PHONE</label>
+					<input type="number" name="phone">
+
+					<label for="email">TOPIC</label>
+					<input type="text" id="topic" name="topic">
+
+
+					<label for="subject">QUESTION(S)</label>
+					<textarea id="subject" name="subject" style="height:200px"></textarea>
+
+					<input type="submit" value="Submit">
+				</form>
+</div>
+		</section>
+
 	</main>
+	
 	<footer>
-		<!-- footer content here -->
-		&copy; Team Awesome
+		&copy; VOODOO DOUGHNUT
 	</footer>
+
 	<!-- link for jquery -->
 	<script
   	src="https://code.jquery.com/jquery-3.4.1.min.js"
