@@ -1,40 +1,74 @@
- Enter your Styles below! */
-
-
 body { 
+	background-color: black;
 	font-family: Acumin Pro Condensed, sans-serif;
 	font-size: 16px;
-	 }
+}
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	font-family: Acumin Pro Condensed, sans-serif;
+	color: #e5aac0;
+
 }
 
 h1 {
 	font-size: 48px;
+
 }
 
 h2 {
 	font-size: 36px;
+
 }
 
 h3 {
 	font-size: 28px;
 }
+
 h4 {
 	font-size: 24px;
 }
 
-header {margin-bottom: 20px;}
+h5 {
+	font-size: 24px;
+}
+
+h6 {
+	font-size: 24px;
+	color: black;
+}
+p {
+	font-size: 24px;
+	color: #e5aac0;
+}
+
+header {margin-bottom: 20px;
+		color: #e5aac0;
+}
 
 /* ensures that your images stretch the width of their containers */
-img { width: 100%; }
+img { width: 100%;
+ }
 
 a { 
-	color: red;
+	color: #e5aac0;
 	text-decoration: none;
 	 }
-a:hover { color: black; }
+a:hover { color: #d9a447; }
+a:active { color: white;}
+
+nav li {
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 40px;
+	color: #143a4c;
+  	font-size: 20px;
+}
+
+footer {
+	background-color: #e5aac0;
+	width: 100%;
+	height: 150px;
+}
 
 .grid {
 	display: grid;
@@ -50,23 +84,42 @@ a:hover { color: black; }
 }
 
 .logo {
-	width: 200px;
-	height: 200px;
+	width: 275px;
+	height: 275px;
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: auto;
 }
 
 
-body {font-family: Acumin Pro Condensed, sans-serif;}
+body {font-family: Acumin Pro Condensed, sans-serif;
+	color:#d9a447;
+}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: #e5aac0;
+}
+
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #e5aac0;
 }
 
 input[type=submit] {
@@ -75,19 +128,23 @@ input[type=submit] {
   padding: 12px 20px;
   border: 2px;
   border-color: #d9a447;
-  border-radius: 4px;
+  border-radius: 0px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: white;
+  background-color: #e5aac0;
   border-color: #d9a447;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: white;
+  border-radius: 0px;
+  background-color: black;
   padding: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
