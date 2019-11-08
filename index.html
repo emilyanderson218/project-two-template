@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/jwn5jdo.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
@@ -30,25 +31,29 @@
 	
 	<main>
 		<section>
-			<header>WHAT IS VOODOO DOUGHNUT?</header>
+			<h2>WHAT IS VOODOO DOUGHNUT?</h2>
 			<iframe width="1152" height="648" src="https://www.youtube.com/embed/Ob1yxoGK_cQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 
 		<section>
-			<header>WHAT IS VOODOO DOUGHNUT?</header>
-			<div class="grid">
-				<img src="images/original.jpg">
-				<img src="images/too.jpg">
-				<img src="images/broadway.jpg">
-				<img src="images/austin.jpg">
-				<img src="images/citywalk.jpg">
-				<img src="images/denver.jpg">
-				<img src="images/eugene.jpg">
-				<img src="images/universal.jpg">
+			<h2>WHERE IS VOODOO DOUGHNUT?</h2>
+
+			<div class="location-gallery">
+			<a href="images/original.jpg" data-lightbox="mygallery" data-title="OLD TOWN - PORTLAND, OREGON"><img src="images/original.jpg"></a>
+			<a href="images/too.jpg" data-lightbox="mygallery" data-title="DAVIS - PORTLAND, OREGON"><img src="images/too.jpg"></a>
+			<a href="images/eugene.jpg" data-lightbox="mygallery" data-title="EUGENE,OREGON"><img src="images/eugene.jpg"></a>
+			<a href="images/broadway.jpg" data-lightbox="mygallery" data-title="BROADWAY - DENVER, COLORADO"><img src="images/broadway.jpg"></a>
+			<a href="images/austin.jpg" data-lightbox="mygallery" data-title="AUSTIN, TEXAS"><img src="images/austin.jpg"></a>
+			<a href="images/images/denver.jpg" data-lightbox="mygallery" data-title="COLFAX - DENVER, COLORADO"><img src="images/denver.jpg"></a>
+			<a href="images/universal.jpg" data-lightbox="mygallery" data-title="UNIVERSAL ORLANDO RESORT - ORLANDO, FLORIDA"><img src="images/universal.jpg"></a>
+			<a href="images/citywalk.jpg" data-lightbox="mygallery" data-title="UNIVERSAL CITYWALK - HOLLYWOOD, CALIFORNIA"><img src="images/citywalk.jpg"></a>
 			</div>
+
 		</section>
 
 		<section>
+			<h2>CONTACT</h2>
+
 			<div class="container">
 				<form action="/action_page.php">
 					<label for="fname">NAME</label>
@@ -85,6 +90,6 @@ src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 crossorigin="anonymous"></script>
 <!-- link for your script file -->
-<script src="scripts/script.js"></script>
+<script src="scripts/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
