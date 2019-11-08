@@ -1,13 +1,11 @@
 body { 
-	background-color: black;
-	font-family: Acumin Pro Condensed, sans-serif;
+	background-color: #000000;
 	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5 {
 	font-family: Acumin Pro Condensed, sans-serif;
 	color: #e5aac0;
-
 }
 
 h1 {
@@ -147,22 +145,43 @@ input[type=submit]:hover {
   margin-bottom: 50px;
 }
 
+div.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
 @media only screen and (min-width: 768px){
 	body {
-		background-color: white; 
+		background-color: black; 
 	}
 }
 
 @media only screen and (min-width: 1024px){
 	body {
-		background-color: white; 
+		background-color: black; 
 	}
 }
 
 @media only screen and (min-width: 1200px){
 	body {
-		background-color: white; 
+		background-color: black; 
 	}
 }
 
