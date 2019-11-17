@@ -44,6 +44,9 @@ p {
 	font-weight: medium-italic;
 	text-align:center;
 	padding-top: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
 }
 
 .instagram {
@@ -174,8 +177,10 @@ input[type=submit]:hover {
 
 .gallery img {
 	transition: 1s;
-	padding: 15px;
-	width: 200px;
+	padding: 5px;
+	width: 150px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .gallery img:hover {
