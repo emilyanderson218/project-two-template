@@ -17,7 +17,7 @@ h2 {
 	font-size: 30px;
 	font-weight: medium;
 	text-align:center;
-	padding-top: 20px;
+	padding-top: 35px;
 }
 
 h3 {
@@ -33,8 +33,10 @@ h5 {
 }
 
 h6 {
-	font-size: 24px;
+	font-size: 15px;
 	color: black;
+	text-align:center;
+	padding-top: 20px;
 }
 p {
 	color: #d9a447;
@@ -49,17 +51,17 @@ p {
 }
 
 header {margin-bottom: 20px;
-		color: #e5aac0;
+	color: #e5aac0;
 }
 
 /* ensures that your images stretch the width of their containers */
 img { width: 100%;
- }
+}
 
 a { 
 	color: #e5aac0;
 	text-decoration: none;
-	 }
+}
 a:hover { color: #d9a447; }
 a:active { color: white;}
 
@@ -67,20 +69,20 @@ nav li {
 	display: inline-block;
 	margin-top: 10px;
 	color: #143a4c;
-  	font-size: 15px;
-  	margin-left: 20px;
+	font-size: 15px;
+	margin-left: 20px;
 	margin-right: 20px;
 }
 
 footer {
 	background-color: #e5aac0;
 	width: 100%;
-	height: 100px;
+	height: 50px;
 }
 
 iframe {
 	border-color: #d9a447;
- 	border-style: solid;
+	border-style: solid;
 	border-width: 4px;
 	margin-left: 52px;
 	margin-right: 52px;
@@ -104,10 +106,10 @@ iframe {
 	width: 200px;
 	height: 200px;
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
-  	width: auto;
-  	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	padding-top: 10px;
 }
 
 
@@ -117,86 +119,86 @@ body {font-family: Acumin Pro Condensed, sans-serif;
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 0px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  background-color: #e5aac0;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color: #e5aac0;
 }
 
 input[type=number], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 0px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  background-color: #e5aac0;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color: #e5aac0;
 }
 
 input[type=submit] {
-  background-color: #d9a447;
-  color: white;
-  padding: 12px 20px;
-  border: 2px;
-  border-color: #d9a447;
-  border-radius: 0px;
-  cursor: pointer;
+	background-color: #d9a447;
+	color: white;
+	padding: 12px 20px;
+	border: 2px;
+	border-color: #d9a447;
+	border-radius: 0px;
+	cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #e5aac0;
-  border-color: #d9a447;
+	background-color: #e5aac0;
+	border-color: #d9a447;
 }
 
 .container {
-  border-radius: 0px;
-  background-color: black;
-  padding: 20px;
-  margin-right: 300px;
-  margin-left: 300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+	border-radius: 0px;
+	background-color: black;
+	padding: 15px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: 50px;
 }
 
 .gallery {
-  margin: 5px 25px;
+	margin: 5px 25px;
 }
 
 .gallery img {
-  transition: 1s;
-  padding: 15px;
-  width: 200px;
+	transition: 1s;
+	padding: 15px;
+	width: 200px;
 }
 
 .gallery img:hover {
-  transform: scale(1.1);
-  border-color: #d9a447;
-  border-style: solid;
-  border-width: 2px;
+	transform: scale(1.1);
+	border-color: #d9a447;
+	border-style: solid;
+	border-width: 2px;
 }
 
 .location-gallery {
-  margin: 10px 50px;
+	margin: 10px 50px;
 }
 
 .location-gallery img {
-  transition: 1s;
-  padding: 15px;
-  width: 155px;
+	transition: 1s;
+	padding: 15px;
+	width: 155px;
 }
 
 .location-gallery img:hover {
-  transform: scale(1.1);
-  border-color: #e5aac0;
-  border-style: solid;
-  border-width: 3px;
+	transform: scale(1.1);
+	border-color: #e5aac0;
+	border-style: solid;
+	border-width: 3px;
 }
 
 .slider {
@@ -216,7 +218,7 @@ input[type=submit]:hover {
 		grid-gap: 40px;
 		width: 60%;
 		margin-left: auto;
- 		margin-right: auto;
+		margin-right: auto;
 	}
 }
 
@@ -224,11 +226,118 @@ input[type=submit]:hover {
 	body {
 		background-color: black; 
 	}
+
+	body {font-family: Acumin Pro Condensed, sans-serif;
+		color:#d9a447;
+	}
+	* {box-sizing: border-box;}
+
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 0px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		background-color: #e5aac0;
+	}
+
+	input[type=number], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 0px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		background-color: #e5aac0;
+	}
+
+	input[type=submit] {
+		background-color: #d9a447;
+		color: white;
+		padding: 12px 20px;
+		border: 2px;
+		border-color: #d9a447;
+		border-radius: 0px;
+		cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+		background-color: #e5aac0;
+		border-color: #d9a447;
+	}
+
+	.container {
+		border-radius: 0px;
+		background-color: black;
+		padding: 20px;
+		margin-right: 300px;
+		margin-left: 300px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 }
 
 @media only screen and (min-width: 1200px){
 	body {
 		background-color: black; 
+	}
+	body {font-family: Acumin Pro Condensed, sans-serif;
+		color:#d9a447;
+	}
+	* {box-sizing: border-box;}
+
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 0px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		background-color: #e5aac0;
+	}
+
+	input[type=number], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 0px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		background-color: #e5aac0;
+	}
+
+	input[type=submit] {
+		background-color: #d9a447;
+		color: white;
+		padding: 12px 20px;
+		border: 2px;
+		border-color: #d9a447;
+		border-radius: 0px;
+		cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+		background-color: #e5aac0;
+		border-color: #d9a447;
+	}
+
+	.container {
+		border-radius: 0px;
+		background-color: black;
+		padding: 20px;
+		margin-right: 300px;
+		margin-left: 300px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 }
 
