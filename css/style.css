@@ -15,21 +15,24 @@ h1 {
 
 h2 {
 	font-size: 25px;
-	font-weight: medium;
 	text-align:center;
 	padding-top: 35px;
 }
 
 h3 {
-	font-size: 28px;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 12px;
+	color: #e5aac0;
 }
 
 h5 {
-	font-size: 24px;
+	font-size: 6px;
+	color: black;
 }
 
 h6 {
@@ -38,10 +41,10 @@ h6 {
 	text-align:center;
 	padding-top: 20px;
 }
+
 p {
 	color: #d9a447;
 	font-size: 18px;
-	font-weight: medium-italic;
 	text-align:center;
 	padding-top: 10px;
 	padding-right: 40px;
@@ -52,6 +55,36 @@ p {
 .instagram {
 	color: #e5aac0;
 }
+
+.doughnut-category{
+	background-color: #e5aac0;
+	width: 90%;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.donut-info{
+	background-color: white;
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.donut-pic{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.slider {
+	width: 85%;
+	margin: 0 auto;
+	background-color: black;
+	padding-top: 15px;
+}
+
+.donut-slide img {width: 100%;}
+.donut-slide { margin: 0 0;}
 
 header {margin-bottom: 20px;
 	color: #e5aac0;
@@ -161,7 +194,7 @@ input[type=submit]:hover {
 	border-color: #d9a447;
 }
 
-.container {
+.contact-container {
 	border-radius: 0px;
 	background-color: black;
 	padding: 15px;
@@ -206,15 +239,6 @@ input[type=submit]:hover {
 	border-style: solid;
 	border-width: 3px;
 }
-
-.slider {
-	width: 90%;
-	margin: auto;
-	background-color: black;
-}
-
-.donut-slide img {width: 100%;}
-.donut-slide { margin: 0 20px;}
 
 @media only screen and (min-width: 768px){
 	body {

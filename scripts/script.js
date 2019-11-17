@@ -5,15 +5,15 @@ $(function() {
 
 $('.multiple-items').slick({
   infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
+  slidesToShow: 2,
+  slidesToScroll: 2
 });
 
 $('.autoplay').slick({
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,
 });
 
 $('.responsive').slick({
