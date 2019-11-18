@@ -26,13 +26,17 @@ h3 {
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 15px;
 	color: #e5aac0;
+	text-align: center;
+	padding-top: 5px;
 }
 
 h5 {
-	font-size: 6px;
+	font-size: 10px;
 	color: black;
+	text-align: center;
+	padding-top: 5px;
 }
 
 h6 {
@@ -66,12 +70,11 @@ p {
 .donut-info{
 	background-color: white;
 	width: 100%;
-	height: 40px;
+	height: 50px;
 	margin: 0 auto;
 }
 
-.donut-pic{
-	background-color: white;
+.donut-pic{;
 	width: 100%;
 	height: 100%;
 }
@@ -80,7 +83,8 @@ p {
 	width: 85%;
 	margin: 0 auto;
 	background-color: black;
-	padding-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .donut-slide img {width: 100%;}
