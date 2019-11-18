@@ -90,6 +90,8 @@ p {
 .donut-slide img {width: 100%;}
 .donut-slide { margin: 0 0;}
 
+.slick-slide { margin: 8px; }
+
 header {margin-bottom: 20px;
 	color: #e5aac0;
 }
@@ -245,134 +247,16 @@ input[type=submit]:hover {
 }
 
 @media only screen and (min-width: 768px){
-	body {
-		background-color: black; 
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 40px;
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+
 }
 
 @media only screen and (min-width: 1024px){
-	body {
-		background-color: black; 
-	}
 
-	body {font-family: Acumin Pro Condensed, sans-serif;
-		color:#d9a447;
-	}
-	* {box-sizing: border-box;}
-
-	input[type=text], select, textarea {
-		width: 100%;
-		padding: 12px;
-		border: 1px solid #ccc;
-		border-radius: 0px;
-		box-sizing: border-box;
-		margin-top: 6px;
-		margin-bottom: 16px;
-		resize: vertical;
-		background-color: #e5aac0;
-	}
-
-	input[type=number], select, textarea {
-		width: 100%;
-		padding: 12px;
-		border: 1px solid #ccc;
-		border-radius: 0px;
-		box-sizing: border-box;
-		margin-top: 6px;
-		margin-bottom: 16px;
-		resize: vertical;
-		background-color: #e5aac0;
-	}
-
-	input[type=submit] {
-		background-color: #d9a447;
-		color: white;
-		padding: 12px 20px;
-		border: 2px;
-		border-color: #d9a447;
-		border-radius: 0px;
-		cursor: pointer;
-	}
-
-	input[type=submit]:hover {
-		background-color: #e5aac0;
-		border-color: #d9a447;
-	}
-
-	.container {
-		border-radius: 0px;
-		background-color: black;
-		padding: 20px;
-		margin-right: 300px;
-		margin-left: 300px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
 }
 
 @media only screen and (min-width: 1200px){
-	body {
-		background-color: black; 
-	}
-	body {font-family: Acumin Pro Condensed, sans-serif;
-		color:#d9a447;
-	}
-	* {box-sizing: border-box;}
 
-	input[type=text], select, textarea {
-		width: 100%;
-		padding: 12px;
-		border: 1px solid #ccc;
-		border-radius: 0px;
-		box-sizing: border-box;
-		margin-top: 6px;
-		margin-bottom: 16px;
-		resize: vertical;
-		background-color: #e5aac0;
-	}
-
-	input[type=number], select, textarea {
-		width: 100%;
-		padding: 12px;
-		border: 1px solid #ccc;
-		border-radius: 0px;
-		box-sizing: border-box;
-		margin-top: 6px;
-		margin-bottom: 16px;
-		resize: vertical;
-		background-color: #e5aac0;
-	}
-
-	input[type=submit] {
-		background-color: #d9a447;
-		color: white;
-		padding: 12px 20px;
-		border: 2px;
-		border-color: #d9a447;
-		border-radius: 0px;
-		cursor: pointer;
-	}
-
-	input[type=submit]:hover {
-		background-color: #e5aac0;
-		border-color: #d9a447;
-	}
-
-	.container {
-		border-radius: 0px;
-		background-color: black;
-		padding: 20px;
-		margin-right: 300px;
-		margin-left: 300px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
+	
 }
 
 
