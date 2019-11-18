@@ -11,9 +11,9 @@ $('.multiple-items').slick({
 
 $('.autoplay').slick({
   slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 1500,
 });
 
 $('.responsive').slick({
