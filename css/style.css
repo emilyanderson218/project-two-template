@@ -22,14 +22,15 @@ h2 {
 h3 {
 	font-size: 18px;
 	color: white;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 3px;
 }
 
 h4 {
-	font-size: 15px;
+	font-size: 17px;
 	color: #e5aac0;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 15px;
 }
 
 h5 {
@@ -37,6 +38,8 @@ h5 {
 	color: black;
 	text-align: center;
 	padding-top: 5px;
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 h6 {
@@ -48,7 +51,7 @@ h6 {
 
 p {
 	color: #d9a447;
-	font-size: 18px;
+	font-size: 15px;
 	text-align:center;
 	padding-top: 10px;
 	padding-right: 40px;
@@ -70,13 +73,17 @@ p {
 .donut-info{
 	background-color: white;
 	width: 100%;
-	height: 50px;
+	height: 80px;
 	margin: 0 auto;
 }
 
 .donut-pic{
 	width: 100%;
 	height: 100%;
+}
+
+.vegan {
+	color: #d9a447;
 }
 
 .allergy{
@@ -87,6 +94,7 @@ p {
 }
 
 .allergy-text{
+	margin-left: 35px;
 	text-align: center;
 }
 
@@ -123,28 +131,36 @@ a:active { color: white;}
    background-color: #000000;
 }
 
-nav li {
-	display: inline-block;
-	margin-top: 5px;
+ul {display: inline-inline-block;
+	position: relative;
+	text-align: center;
+	width: 100%;
+} 
+
+
+li {
+	display: inline;
+	font-family: Acumin Pro Condensed, sans-serif; 
+	margin: auto;
 	color: #143a4c;
 	font-size: 15px;
-	margin-left: 28px;
-	margin-right: 28px;
-	padding-left: 5px;
+	text-align: center;
+	padding: 15px;
 }
 
 footer {
 	background-color: #e5aac0;
 	width: 100%;
 	height: 50px;
+	margin-top: 30px;
 }
 
 iframe {
 	border-color: #d9a447;
 	border-style: solid;
 	border-width: 4px;
-	margin-left: 52px;
-	margin-right: 52px;
+	margin-left: 90px;
+	margin-right: 90px;
 	margin-top: 20px;
 }
 
@@ -245,13 +261,14 @@ input[type=submit]:hover {
 }
 
 .location-gallery {
-	margin: 10px 50px;
+	margin: auto;
 }
 
 .location-gallery img {
 	transition: 1s;
 	padding: 15px;
-	width: 148px;
+	width: 180px;
+	align-content: center;
 }
 
 .location-gallery img:hover {
@@ -266,6 +283,21 @@ input[type=submit]:hover {
 }
 
 @media only screen and (min-width: 1024px){
+
+.logo {
+	width: 250px;
+	height: 250px;
+}
+
+li {
+	font-size: 20px;
+	padding: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	padding-top: 40px;
+}
 
 }
 
