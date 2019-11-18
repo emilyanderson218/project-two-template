@@ -74,9 +74,20 @@ p {
 	margin: 0 auto;
 }
 
-.donut-pic{;
+.donut-pic{
 	width: 100%;
 	height: 100%;
+}
+
+.allergy{
+	background-color: #d9a447;
+	width: 40%;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.allergy-text{
+	text-align: center;
 }
 
 .slider {
@@ -104,16 +115,21 @@ a {
 	color: #e5aac0;
 	text-decoration: none;
 }
-a:hover { color: #d9a447; }
+a:hover { color: white; }
 a:active { color: white;}
+
+.current-link {
+   color: #d9a447;
+   background-color: #000000;
+}
 
 nav li {
 	display: inline-block;
 	margin-top: 5px;
 	color: #143a4c;
 	font-size: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 28px;
+	margin-right: 28px;
 	padding-left: 5px;
 }
 
@@ -211,15 +227,14 @@ input[type=submit]:hover {
 }
 
 .gallery {
-	margin: 5px 25px;
+	margin: 25px 25px;
 }
 
 .gallery img {
 	transition: 1s;
 	padding: 5px;
-	width: 150px;
-	margin-right: 10px;
-	margin-left: 10px;
+	width: 190px;
+	margin-left: 22px;
 }
 
 .gallery img:hover {
