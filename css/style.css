@@ -304,15 +304,23 @@ h2 {
 	padding-top: 40px;
 }
 
+h3 {
+	font-size: 20px;
+	padding-top: 17px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
 .location-gallery {
-	margin: 90px;
-	margin-top: 25px;
+	width: 50%;
 }
 
 .location-gallery img {
-	padding: 20px;
 	width: 300px;
-	margin-left: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .location-gallery img:hover {
@@ -344,6 +352,31 @@ iframe {
 
 .gallery img:hover {
 	border-width: 4px;
+}
+
+.doughnut-category{
+	width: 45%;
+	height: 50px;
+}
+
+.slider {
+	width: 45%;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 13px;
+}
+
+p {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 435px;
+	margin-left: 435px;
 }
 
 }
