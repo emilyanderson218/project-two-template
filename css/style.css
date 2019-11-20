@@ -68,6 +68,7 @@ p {
 	width: 90%;
 	height: 30px;
 	margin: 0 auto;
+	padding-left: 8px;
 }
 
 .donut-info{
@@ -159,8 +160,8 @@ iframe {
 	border-color: #d9a447;
 	border-style: solid;
 	border-width: 4px;
-	margin-left: 90px;
-	margin-right: 90px;
+	margin-left: 98px;
+	margin-right: 98px;
 	margin-top: 20px;
 }
 
@@ -238,7 +239,7 @@ input[type=submit]:hover {
 	padding: 15px;
 	margin-right: 50px;
 	margin-left: 50px;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-bottom: 50px;
 }
 
@@ -261,14 +262,14 @@ input[type=submit]:hover {
 }
 
 .location-gallery {
-	margin: auto;
+	margin: 68px;
+	margin-top: 20px;
 }
 
 .location-gallery img {
 	transition: 1s;
-	padding: 15px;
+	padding: 5px;
 	width: 180px;
-	align-content: center;
 }
 
 .location-gallery img:hover {
@@ -276,6 +277,10 @@ input[type=submit]:hover {
 	border-color: #e5aac0;
 	border-style: solid;
 	border-width: 3px;
+}
+
+.gallery-section {
+	margin-bottom: -60px;
 }
 
 @media only screen and (min-width: 768px){
@@ -297,6 +302,48 @@ li {
 h2 {
 	font-size: 30px;
 	padding-top: 40px;
+}
+
+.location-gallery {
+	margin: 90px;
+	margin-top: 25px;
+}
+
+.location-gallery img {
+	padding: 20px;
+	width: 300px;
+	margin-left: 50px;
+}
+
+.location-gallery img:hover {
+	border-width: 6px;
+}
+
+.contact-container {
+	margin-right: 400px;
+	margin-left: 400px;
+}
+
+iframe {
+	border-width: 6px;
+	margin-left: 675px;
+
+}
+
+.gallery {
+	margin: 60px 60px;
+}
+
+.gallery img {
+	width: 215px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.gallery img:hover {
+	border-width: 4px;
 }
 
 }
