@@ -283,6 +283,31 @@ input[type=submit]:hover {
 	margin-bottom: -60px;
 }
 
+.voodoo-dude {
+	animation: rotation 4s infinite linear;
+	width: 15%;
+	height: 15%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.coming-soon {
+	color: #d9a447;
+	padding-top: 70px;
+}
+
+.voodoo-align {
+	text-align: center;
+	margin-top: 80px;
+}
+
 @media only screen and (min-width: 768px){
 
 }
