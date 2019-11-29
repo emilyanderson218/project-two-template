@@ -441,6 +441,26 @@ p {
 	margin-top: 80px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #d9a447;
+  bottom: 60px;
+  right: 50px;
+  padding-top: 4px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  font-size: 22px;
+}
+
 
 }
 
