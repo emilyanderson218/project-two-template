@@ -1,7 +1,7 @@
 # Voodoo Doughnuts - Redesign Site
-Project 2 for DES 341 
-5 animations/interactions for Project 3
-Fall 2019 - Portland State University 
+	Project 2 for DES 341 
+	5 animations/interactions for Project 3
+	Fall 2019 - Portland State University 
 
 ## Most Images and Content are taken from Voodoo Doughnuts Original Website 
 
@@ -12,5 +12,5 @@ Fall 2019 - Portland State University
 
 	Homepage Video: https://www.youtube.com/watch?v=Ob1yxoGK_cQ&t=107s
 
-	**Photo Gallery Images are taken from Instagram and their tagged photos
+	Photo Gallery Images are taken from Instagram and their tagged photos
 		Edited by creator of website - Emily Anderson 
