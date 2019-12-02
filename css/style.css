@@ -63,6 +63,26 @@ p {
 	color: #e5aac0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  background: #d9a447;
+  bottom: 60px;
+  right: 15px;
+  padding-top: 4px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  font-size: 15px;
+}
+
 .doughnut-category{
 	background-color: #e5aac0;
 	width: 90%;
